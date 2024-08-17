@@ -288,7 +288,7 @@
 .video {
     position: relative;
     padding: 8rem 0 12rem 0;
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/video.jpg) center center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -588,4 +588,21 @@
 
 #offcanvasRight{
     width: 680px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
